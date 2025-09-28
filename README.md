@@ -1,4 +1,6 @@
 # Stripe-Gated Checkout (Identity -> Checkout)
+
+## Overview
 Two endpoints:
 - POST `/api/create-verification`   -> returns Stripe Identity URL
 - GET  `/api/continue-to-checkout?vs=...`  -> returns Stripe Checkout URL after verified
