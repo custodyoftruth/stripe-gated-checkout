@@ -1,0 +1,12 @@
+{
+  "name": "stripe-gated-checkout",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "stripe": "^16.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
